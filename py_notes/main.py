@@ -21,13 +21,14 @@ while True:
         index_pos = 0
 
     #create a new file
-    elif(user_input user_input== "new"):
+    elif(user_input== "new"):
         print("Name file...")
         user_input = str(input("[User::New]-> "))
         open(f"usr_str/{user_input}", 'w')
 
     #write to a selected file
     elif(user_input == "write"):
+
         print("what file would you like to write to?")
         file_sel = str(input("[User::Sel]-> "))
 
@@ -44,7 +45,6 @@ while True:
     elif user_input == "!!QUIT!!":
         break
                 
-
          
     
 
